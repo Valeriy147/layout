@@ -197,23 +197,24 @@ main {
   max-height: 435px;
   background-color: #FBFBFB;
 }
-
-.about__image {
+.about .about__title {
+  font-size: 44px;
+}
+.about .about__image {
   margin-bottom: 30px;
 }
-
-.about__information {
+.about .about__information {
   margin-left: 20px;
 }
-.about__information > .title {
+.about .about__information > .title {
   margin-bottom: 30px;
 }
-.about__information > .about__content {
+.about .about__information > .about__content {
   font-weight: 300;
   font-size: 16px;
   line-height: 25px;
 }
-.about__information > button {
+.about .about__information > button {
   margin-top: 30px;
 }
 
