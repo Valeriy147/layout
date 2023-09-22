@@ -13,6 +13,7 @@
 body {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family: 'TT Hoves' !important;
 }
 
@@ -384,8 +385,14 @@ main {
     right: -15px;
 }
 
+.contact__button-container {
+    margin-bottom: 10px;
+}
+
+
 .contact__agree {
     width: 331px;
+    max-width: 100%;
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
@@ -393,9 +400,6 @@ main {
     margin: 25px 40px;
 }
 
-.contact__button-container {
-    margin-bottom: 10px;
-}
 
 // footer
 
@@ -806,7 +810,19 @@ footer {
                 }
             }
         }
-    }   
+    }
+
+    .contact__agree {
+        margin: 10px 0;
+        font-size: 12px;
+    }
+
+    .home__image {
+
+        >button {
+            width: 100%;
+        }
+    }
 }
 
 
