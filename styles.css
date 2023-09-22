@@ -367,6 +367,9 @@ footer > .footer-main > .footer-main__socials > .footer-main__socials-items {
 footer > .footer-main > .footer-main__socials > .footer-main__socials-items > a {
   margin: 0 15px;
 }
+footer > .footer-main > .footer-main__socials > .footer-main__socials-items > a > img {
+  margin-bottom: 10px;
+}
 footer > .footer-branding {
   color: rgb(211, 211, 211);
   text-align: center;
